@@ -66,6 +66,29 @@ nav a:active {
 }
 
 /* Featured Teas */
+.featured {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.featured img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured div.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.featured div.container div {
+    margin: auto 10px;
+}
+
+.featured div.container h4 {
+    margin: 15px auto;
+}
 
 /* Locations */
 
