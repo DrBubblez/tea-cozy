@@ -91,5 +91,35 @@ nav a:active {
 }
 
 /* Locations */
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 795px;
+    max-width: 1200px;
+    margin: 100px auto;
+    background-image: url(../img/locations-background.jpeg);
+}
+
+.locations h2 {
+    margin-bottom: 15px;
+}
+
+.locations .addresses {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.locations div.location {
+    background-color: #000000;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.locations p {
+    margin: 5px auto;
+}
 
 /* Footer */
