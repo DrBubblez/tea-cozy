@@ -97,7 +97,7 @@ nav a:active {
     justify-content: center;
     height: 795px;
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 100px auto 0px;
     background-image: url(../img/locations-background.jpeg);
 }
 
@@ -123,3 +123,7 @@ nav a:active {
 }
 
 /* Footer */
+footer h5.copyright {
+    text-align: start;
+    margin-left: 20px;
+}
